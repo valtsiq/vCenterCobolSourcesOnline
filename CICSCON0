@@ -1,6 +1,6 @@
        CBL CICS('COBOL3') APOST
       *****************************************************************
-      *                                                               *
+      *  colocando uma grande mudança                                 *
       *  MODULE NAME = DFH0XCMN                                       *
       *                                                               *
       *  DESCRIPTIVE NAME = CICS TS  (Samples) Example Application -  *
@@ -17,8 +17,6 @@
       *      (C) Copyright IBM Corp. 2004, 2005"                      *
       *                                                               *
       *                                                               *
-      *                                                               *
-      *                                                               *
       *  STATUS = 7.2.0                                               *
       *                                                               *
       *  TRANSACTION NAME = n/a                                       *
@@ -32,16 +30,6 @@
       *  ENTRY POINT = DFH0XCMN                                       *
       *                                                               *
       *-------------------------------------------------------------  *
-      *                                                               *
-      *  CHANGE ACTIVITY :                                            *
-      *                                                               *
-      *  $MOD(DFH0XCMN),COMP(PIPELINE),PROD(CICS TS ):                *
-      *                                                               *
-      *  PN= REASON REL YYMMDD HDXXIII : REMARKS                      *
-      * $D0= I07544 640 041126 HDIPCB  : ExampleApp: Outbound support *
-      * $P1= D13727 640 050217 HDIPCB  : Minor fixes to the web servic*
-      *  $D0= I07544 640 040910 HDIPCB  : EXAMPLE - BASE APPLICATION  *
-      *                                                               *
       *****************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. VSRS0000.
